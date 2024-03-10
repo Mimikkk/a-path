@@ -1,5 +1,12 @@
 # A-string - Typescript friendly object/tuple path resolve
 
+<a href="https://www.npmjs.com/package/a-path">
+  <img alt="npm version" src="https://img.shields.io/npm/v/a-path.svg?style=flat-square" />
+</a>
+<a href="https://www.npmjs.com/package/a-path">
+  <img alt="npm downloads" src="https://img.shields.io/npm/dm/a-path.svg?style=flat-square" />
+</a>
+
 Full thanks to [gmarkov](https://github.com/g-makarov) and
 his [dot-path-value](https://github.com/g-makarov/dot-path-value).
 
