@@ -18,7 +18,7 @@
     ]
   },
   "include": [
-    "src/z-path.ts",
+    "src/tz-path.ts",
     "readme.md"
   ],
   "references": [

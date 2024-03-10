@@ -5,9 +5,9 @@ export default defineConfig({
     emptyOutDir: true,
     outDir: 'build',
     lib: {
-      entry: 'src/z-path.ts',
-      name: 'z-path',
-      fileName: format => `z-path.${format}.js`,
+      entry: 'src/tz-path.ts',
+      name: 'tz-path',
+      fileName: format => `tz-path.${format}.js`,
       formats: ['es', 'cjs', 'umd'],
     },
   },

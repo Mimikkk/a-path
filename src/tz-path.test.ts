@@ -1,9 +1,9 @@
 import { describe, expect, expectTypeOf, it } from 'vitest';
-import { Path } from './z-path.js';
+import { Path } from './tz-path';
 
 type DeepPartial<T> = { [P in keyof T]?: T[P] extends object ? DeepPartial<T[P]> : T[P] };
 
-describe('Z-Path', () => {
+describe('TZ-Path', () => {
   type Item = { a: { b: { c: number } }; b: number };
   type Tuple = [string, [first: Item, second: Item]];
   type Array = Item[];

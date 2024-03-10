@@ -1,5 +1,5 @@
 {
-  "name": "@z/path",
+  "name": "tz-path",
   "version": "1.0.0",
   "description": "Dotted path resolve for typescript",
   "keywords": [
@@ -19,7 +19,7 @@
   "homepage": "https://www.github.com/Mimikkk/z-path",
   "repository": {
     "type": "git",
-    "url": "https://www.github.com/Mimikkk/z-path"
+    "url": "git+https://github.com/Mimikkk/z-path.git"
   },
   "license": "MIT",
   "author": "Daniel Zdancewicz <zdancewicz.daniel@gmail.com>",
@@ -55,5 +55,8 @@
     "typescript": "^5.4.2",
     "vite": "^5.1.5",
     "vitest": "^1.3.1"
+  },
+  "bugs": {
+    "url": "https://github.com/Mimikkk/z-path/issues"
   }
 }

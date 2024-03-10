@@ -6,6 +6,6 @@
     "outDir": "build"
   },
   "include": [
-    "src/z-path.ts"
+    "src/tz-path.ts"
   ]
 }
