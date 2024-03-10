@@ -1,4 +1,4 @@
-# A-string - Typescript friendly object/tuple path resolve
+# A-path - Typescript friendly object/tuple path resolve
 
 <a href="https://www.npmjs.com/package/a-path">
   <img alt="npm version" src="https://img.shields.io/npm/v/a-path.svg?style=flat-square" />
