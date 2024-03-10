@@ -1,4 +1,4 @@
-# Z-string - Typescript friendly object/tuple path resolve
+# A-string - Typescript friendly object/tuple path resolve
 
 Full thanks to [gmarkov](https://github.com/g-makarov) and
 his [dot-path-value](https://github.com/g-makarov/dot-path-value).
@@ -9,15 +9,15 @@ to `get`/`set`.
 ## Install
 
 ```bash
-pnpm install z-path
+pnpm install a-path
 ```
 
 ```bash
-npm install z-path
+npm install a-path
 ```
 
 ```bash
-yarn add z-path
+yarn add a-path
 ```
 
 ## Features
@@ -33,7 +33,7 @@ yarn add z-path
 ### Usage of Path utilities
 
 ```ts
-import type { Path } from 'z-path';
+import type { Path } from 'a-path';
 type Item = {
   a: { b: { c: string } };
   b: number;
@@ -68,7 +68,7 @@ Path.At<Item, 'a.b.c' | 'a.b'>;
 ### Usage with an object
 
 ```ts
-import { Path } from 'z-path';
+import { Path } from 'a-path';
 
 type Item = {
   a: { b: { c: string } };
@@ -100,7 +100,7 @@ Path.set(item, 'a.b', { c: 'himom!' });
 ### Usage with a tuple
 
 ```ts
-import { Path } from 'z-path';
+import { Path } from 'a-path';
 
 type Item = {
   a: { b: { c: string; } },
@@ -133,7 +133,7 @@ Path.set(tuple, '1.0.a.b', { c: 'himom!' });
 ### Usage with an array
 
 ```ts
-import { Path } from 'z-path';
+import { Path } from 'a-path';
 
 type Item = {
   a: { b: { c: string } };

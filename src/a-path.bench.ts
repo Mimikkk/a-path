@@ -1,5 +1,5 @@
 import { bench, BenchOptions, describe } from 'vitest';
-import { Path } from './tz-path';
+import { Path } from './a-path';
 
 namespace impl_1 {
   export const get = <typeof Path.get>((item, path) => {
