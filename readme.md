@@ -3,6 +3,9 @@
 Full thanks to [gmarkov](https://github.com/g-makarov) and
 his [dot-path-value](https://github.com/g-makarov/dot-path-value).
 
+This is an extension of this library, with API changes and an addition of `At`, `Of` type utilities, and changes
+to `get`/`set`.
+
 ## Install
 
 ```bash
