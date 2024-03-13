@@ -34,6 +34,7 @@ yarn add a-path
 - `Path.Of<T, Y>` - Get all paths with type Y of T in dotted string format.
 - `Path.get(item, path)` - Get value by path with type-safety.
 - `Path.set(item, path, value)` - Set value by path with type-safety.
+- Supports object, array, tuple and recursive types.
 
 ## Usage
 
@@ -70,6 +71,14 @@ Path.At<Item, 'a.b.c.d'>;
 
 Path.At<Item, 'a.b.c' | 'a.b'>;
 //   ^? string | { c: string }
+
+type RecursiveItem = {
+  a: RecursiveItem;
+  b: number;
+};
+
+Path<RecursiveItem>;
+//   ^? "a" | "b" // Does Not throw typescript lsp into an infinite loop
 ```
 
 ### Usage with an object
