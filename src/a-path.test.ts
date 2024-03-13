@@ -1,5 +1,5 @@
 import { describe, expect, expectTypeOf, it } from 'vitest';
-import { Path } from './a-path';
+import { Path } from './a-path.js';
 
 type DeepPartial<T> = { [P in keyof T]?: T[P] extends object ? DeepPartial<T[P]> : T[P] };
 
@@ -39,6 +39,18 @@ describe('a-path', () => {
         expectTypeOf<Path<Array>>().toEqualTypeOf<
           `${number}` | `${number}.a` | `${number}.b` | `${number}.a.b` | `${number}.a.b.c`
         >();
+      });
+
+      it('should get path from nested object', () => {
+        type Item = { a: number, b: { c: Item } };
+
+        expectTypeOf<Path<Item>>().toEqualTypeOf<'a' | 'b' | 'b.c'>();
+      });
+
+      it('should get path from simplify nested object', () => {
+        type Item = { a: number, b: { a: number, b: Item } };
+
+        expectTypeOf<Path<Item>>().toEqualTypeOf<'a' | 'b'>();
       });
     });
 

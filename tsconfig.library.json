@@ -6,6 +6,12 @@
     "outDir": "build"
   },
   "include": [
-    "src/a-path.ts"
+    "src"
+  ],
+  "exclude": [
+    "node_modules",
+    "build",
+    "src/**/*.test.ts",
+    "src/**/*.bench.ts"
   ]
 }
