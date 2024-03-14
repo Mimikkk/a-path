@@ -1,4 +1,4 @@
-import type { AtImpl, PathImpl, ListImpl } from './types.js';
+import type { AtImpl, ListImpl, PathImpl } from './types.js';
 /**
  * A type representing all paths in an object.
  *
