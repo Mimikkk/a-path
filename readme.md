@@ -1,10 +1,10 @@
-# A-path - Typescript friendly object/tuple path resolve
+# @nimir/a-path - Typescript friendly object/tuple path resolve
 
-<a href="https://www.npmjs.com/package/a-path">
-  <img alt="npm version" src="https://img.shields.io/npm/v/a-path.svg?style=flat-square" />
+<a href="https://www.npmjs.com/package/@nimir/a-path">
+  <img alt="npm version" src="https://img.shields.io/npm/v/@nimir/a-path.svg?style=flat-square" />
 </a>
-<a href="https://www.npmjs.com/package/a-path">
-  <img alt="npm downloads" src="https://img.shields.io/npm/dm/a-path.svg?style=flat-square" />
+<a href="https://www.npmjs.com/package/@nimir/a-path">
+  <img alt="npm downloads" src="https://img.shields.io/npm/dm/@nimir/a-path.svg?style=flat-square" />
 </a>
 
 Full thanks to [gmarkov](https://github.com/g-makarov) and
@@ -16,15 +16,15 @@ to `get`/`set`.
 ## Install
 
 ```bash
-pnpm install a-path
+pnpm install @nimir/a-path
 ```
 
 ```bash
-npm install a-path
+npm install @nimir/a-path
 ```
 
 ```bash
-yarn add a-path
+yarn add @nimir/a-path
 ```
 
 ## Features
