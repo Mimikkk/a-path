@@ -41,7 +41,7 @@ yarn add a-path
 ### Usage of Path utilities
 
 ```ts
-import type { Path } from 'a-path';
+import type { Path } from '@nimir/a-path';
 type Item = {
   a: { b: { c: string } };
   b: number;
@@ -84,7 +84,7 @@ Path<RecursiveItem>;
 ### Usage with an object
 
 ```ts
-import { Path } from 'a-path';
+import { Path } from '@nimir/a-path';
 
 type Item = {
   a: { b: { c: string } };
@@ -116,7 +116,7 @@ Path.set(item, 'a.b', { c: 'himom!' });
 ### Usage with a tuple
 
 ```ts
-import { Path } from 'a-path';
+import { Path } from '@nimir/a-path';
 
 type Item = {
   a: { b: { c: string; } },
@@ -149,7 +149,7 @@ Path.set(tuple, '1.0.a.b', { c: 'himom!' });
 ### Usage with an array
 
 ```ts
-import { Path } from 'a-path';
+import { Path } from '@nimir/a-path';
 
 type Item = {
   a: { b: { c: string } };
