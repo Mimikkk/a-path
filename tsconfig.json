@@ -8,7 +8,7 @@
     "noImplicitAny": true,
     "isolatedModules": true,
     "strictNullChecks": true,
-    "moduleResolution": "NodeNext",
+    "moduleResolution": "bundler",
     "outDir": "build",
     "lib": [
       "DOM",

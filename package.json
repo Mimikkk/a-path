@@ -1,6 +1,6 @@
 {
   "name": "a-path",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "Dotted path resolve for typescript",
   "keywords": [
     "Typescript",
@@ -50,7 +50,7 @@
     "build:clear": "rimraf build",
     "build:lib": "vite build",
     "build:tsc": "tsc --project tsconfig.library.json",
-    "preinstall": "npx only-allow pnpm"
+    "test": "vitest test"
   },
   "devDependencies": {
     "concurrently": "^8.2.2",
